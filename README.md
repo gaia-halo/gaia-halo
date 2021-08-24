@@ -15,28 +15,67 @@ curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 ```
 mkdir /data
 ```
+
 ```
 cd /data
 ```
+
+```
 apt-get update 
+```
+
+```
 apt-get install git
+```
+
+```
 git clone https://github.com/gaia-halo/py_tox.git
+```
 
 # build image
 
+```
 cd py_tox
+```
+
+```
 docker build -t pytox .
+```
+
+```
 docker run -i -t --name pytox pytox bash
+```
 
+#in docker 
+```
 apt-get update -y
-apt-get install vim
-vim /etc/ld.so.conf #
-ldconfig
-git clone https://github.com/gaia-halo/py_tox.git
-cd py_tox
-python examples/echo.py
+```
 
-```ld.so.conf
+```
+apt-get install vim
+```
+```
+vim /etc/ld.so.conf
+```
+
+```
+ldconfig
+```
+
+```
+git clone https://github.com/gaia-halo/py_tox.git
+```
+
+```
+cd py_tox
+```
+
+```
+python examples/echo.py
+```
+
+##ld.so.conf
+```
 include /etc/ld.so.conf.d/*.conf
 /usr/local/lib
 ```

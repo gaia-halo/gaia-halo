@@ -12,8 +12,12 @@ Python binding for [Project Tox](https://github.com/TokTok/c-toxcore).
 curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 ```
 
+```
 mkdir /data
+```
+```
 cd /data
+```
 apt-get update 
 apt-get install git
 git clone https://github.com/gaia-halo/py_tox.git

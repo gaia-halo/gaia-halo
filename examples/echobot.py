@@ -1,5 +1,5 @@
 from pytox import Tox
-import time
+from time import sleep
 
 class ToxOptions(object):
     def __init__(self):
@@ -24,7 +24,7 @@ class EchoBot(Tox):
     def loop(self):
         while True:
             self.iterate()
-            time.sleep(0.03)
+            sleep(0.03)
 
     def on_friend_request(self, pk, message):
         print 'Friend request from %s: %s' % (pk, message)

@@ -194,7 +194,7 @@ class EchoBot(Tox):
             self.files[(fid, 0)] = self.files[(fid, filenumber)]
 
             length = self.files[(fid, filenumber)]['size']
-            self.file_send(fid, 0, length, filename, filename)
+            #self.file_send(fid, 0, length, filename, filename)
 
             del self.files[(fid, filenumber)]
             return

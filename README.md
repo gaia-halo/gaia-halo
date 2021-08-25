@@ -31,11 +31,11 @@ apt-get install git
 ```
 
 ```
-git clone https://github.com/TokTok/py-toxcore-c.git
+git clone https://github.com/gaia-halo/py_tox.git
 ```
 
 ```
-cd py-toxcore-c
+cd py_tox
 ```
 
 ```
@@ -74,11 +74,11 @@ ldconfig
 ```
 
 ```
-git clone https://github.com/TokTok/py-toxcore-c
+git clone https://github.com/gaia-halo/py_tox.git
 ```
 
 ```
-cd py-toxcore-c
+cd py_tox
 ```
 
 ```

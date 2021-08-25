@@ -78,7 +78,7 @@ git clone https://github.com/gaia-halo/py_tox.git
 ```
 
 ```
-cd py_tox
+cd /data/py_tox
 ```
 
 ```

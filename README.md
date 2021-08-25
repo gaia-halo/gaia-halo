@@ -5,10 +5,10 @@
 
 Python binding for [Project Tox](https://github.com/TokTok/c-toxcore).
 
-Docker hub: <https://hub.docker.com/r/toxchat/py-toxcore-c/>
+# Docker
 
-```sh
-docker pull toxchat/py-toxcore-c
+```
+curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 ```
 
 PyTox provides a Pythonic binding, i.e Object-oriented instead of C style, raise

@@ -3,6 +3,7 @@ from pytox import Tox
 class ToxOptions(object):
     def __init__(self):
         self.ipv6_enabled = True
+        self.local_discovery_enabled = True
         self.udp_enabled = True
         self.proxy_type = 0  # 1=http, 2=socks
         self.proxy_host = ''

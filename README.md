@@ -43,11 +43,11 @@ docker build -t pytox .
 ```
 
 ```
-docker run -i -t --name pytox pytox bash
+docker run --name -it -v /data:/data pytox /bin/bash
 ```
 
 ```
-docker run --name pytox -it -v /data:/data ubuntu /bin/bash
+docker exec -it pytox /bin/bash
 ```
 
 # in docker

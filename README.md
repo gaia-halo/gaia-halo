@@ -74,17 +74,9 @@ ldconfig
 ```
 
 ```
-git clone https://github.com/gaia-halo/py_tox.git
-```
-
-```
 cd /data/py_tox
 ```
 
 ```
 python examples/echo.py
-```
-
-```
-docker exec -it # /bin/bash
 ```

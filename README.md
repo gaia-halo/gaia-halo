@@ -45,7 +45,7 @@ docker build -t pytox .
 ```
 docker run --name pytox -it -v /data:/data pytox /bin/bash
 ```
-
+!reload!
 ```
 docker exec -it pytox /bin/bash
 ```
@@ -79,4 +79,9 @@ cd /data/py_tox
 
 ```
 python examples/echo.py
+```
+
+!out!
+```
+Ctrl+q Ctrl+p
 ```

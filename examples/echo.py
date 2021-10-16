@@ -47,13 +47,12 @@ class EchoBot(Tox):
             super(EchoBot, self).__init__(opts)
 
         #self.self_set_name("god")
-        #self.self_set_status_message("http://8.134.48.186:8006/user/")
+        #self.self_set_status_message("{"version":"0.0.1","client":"http://www.baidu.com","server":"http://8.134.48.186:8006/user/"}")
         self.self_set_name("lottery")
         self.self_set_status_message("http://8.134.48.186:8006/user/lottery/")
         print('ID: %s' % self.self_get_address())
 
         self.files = {}
-
         self.connect()
 
     def connect(self):

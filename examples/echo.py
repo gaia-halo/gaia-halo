@@ -49,8 +49,10 @@ class EchoBot(Tox):
         #self.self_set_name("god")
         #self.self_set_status_message("{"version":"0.0.1","client":"http://www.baidu.com","server":"http://8.134.48.186:8006/user/"}")
         self.self_set_name("lottery")
-        self.self_set_status_message("http://8.134.48.186:8006/user/lottery/")
+        self.self_set_status_message('{"version":"0.0.1","client":"http://8.134.48.186:8006/user/download/","server":"http://8.134.48.186:8006/user/"}')
         print('ID: %s' % self.self_get_address())
+        print('status: %s' % self.self_get_status_message())
+        
 
         self.files = {}
         self.connect()

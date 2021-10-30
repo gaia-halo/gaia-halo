@@ -85,3 +85,8 @@ python examples/echo.py
 ```
 Ctrl+q Ctrl+p
 ```
+
+!restart!
+```
+docker restart imageid
+```

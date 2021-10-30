@@ -35,6 +35,7 @@ def save_to_file(tox, fname):
     data = tox.get_savedata()
     with open(fname, 'wb') as f:
         f.write(data)
+        print('saved')
 
 
 def load_from_file(fname):
@@ -101,6 +102,7 @@ if len(sys.argv) == 2:
     DATA = sys.argv[1]
 
 if exists(DATA):
+    print('reload')
     opts.savedata_data = load_from_file(DATA)
     opts.savedata_length = len(opts.savedata_data)
     opts.savedata_type = Tox.SAVEDATA_TYPE_TOX_SAVE

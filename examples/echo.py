@@ -48,8 +48,6 @@ class EchoBot(Tox):
 
         self.self_set_name("god")
         self.self_set_status_message('{"version":"0.0.1","client":"http://154.23.181.216:8006/user/download/","server":"http://154.23.181.216:8006/user/"}')
-        #self.self_set_name("lottery")
-        #self.self_set_status_message('http://8.134.48.186:8006/user/lottery/')
         print('ID: %s' % self.self_get_address())
         print('status: %s' % self.self_get_status_message())
         

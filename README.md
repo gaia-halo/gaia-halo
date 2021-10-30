@@ -70,7 +70,11 @@ ldconfig
 ```
 
 ```
-python /data/py_tox/examples/echo.py
+cd /data/py_tox/
+```
+
+```
+python examples/echo.py
 ```
 
 !out!

@@ -45,10 +45,6 @@ docker build -t pytox .
 ```
 docker run --name pytox -it -v /data:/data pytox /bin/bash
 ```
-!reload!
-```
-docker exec -it pytox /bin/bash
-```
 
 # in docker
 
@@ -89,4 +85,9 @@ Ctrl+q Ctrl+p
 !restart!
 ```
 docker restart imageid
+```
+
+!reload!
+```
+docker exec -it pytox /bin/bash
 ```

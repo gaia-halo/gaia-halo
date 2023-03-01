@@ -82,9 +82,19 @@ python examples/echo.py
 Ctrl+q Ctrl+p
 ```
 
+!all image!
+```
+ docker ps -a
+```
+
+!start!
+```
+docker restart <imageid/imagename>
+```
+
 !restart!
 ```
-docker restart imageid
+docker restart <imageid/imagename>
 ```
 
 !reload!
